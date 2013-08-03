@@ -22,12 +22,17 @@ complexity class. For more details, it is referred to the official
 rulebook_ of the 2013 `RoboCup@Home <http://www.robocupathome.org>`_
 competition in Eindhoven.
 
-*NOTE*: 
- published here is a stripped down version of the generator. It
- does not contain all command templates and action synonyms from the
- generator actually used in competitions.
+*NOTE*: published here is a stripped down version of the generator. 
+See `Deviations`_.
 
-.. _rulebook: http://www.robocupathome.org/rules/2013_rulebook.pdf
+
+Deviations 
+^^^^^^^^^^ 
+
+The published generator does not contain all command templates and
+action synonyms from the generator actually used in competitions.
+It does not use all locations (rooms and non-grasping locations are left out). 
+
 
 
 Installing and running
@@ -39,6 +44,7 @@ of the GPSR command generator can be directly obtained from github::
    git clone https://github.com/RoboCupAtHome/gpsr_command_generator.git
 
 
+.. _rulebook: http://www.robocupathome.org/rules/2013_rulebook.pdf
 .. |--| unicode:: U+2013   .. en dash
 .. |---| unicode:: U+2014  .. em dash, trimming surrounding whitespace
    :trim:
