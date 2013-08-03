@@ -43,6 +43,33 @@ of the GPSR command generator can be directly obtained from github::
 
    git clone https://github.com/RoboCupAtHome/gpsr_command_generator.git
 
+The command generator is a simple python script and be run using::
+
+   python command_generator.py
+
+It will then prompt for entering the desired command category and generate a random command once you hit enter:: 
+    
+   $ python command_generator.py 
+   Which category do you want to do?   1, 2, 3 or q(uit)
+
+
+Examples
+^^^^^^^^
+
+The following are example commands generated when running the script as above.
+
+* Category I (action sequence)::
+
+   Move to the dinner table, grasp the Energy drink and put it in the trash bin.
+
+* Category II (underspecied command, missing information)::
+
+   Bring me some Drink from a shelf.   ( Drink = Fanta )   ( shelf = bookshelf )
+
+* Category III (erroneous information)::
+
+   Bring me the Milk from the dresser. (But there is NO object!)
+
 
 .. _rulebook: http://www.robocupathome.org/rules/2013_rulebook.pdf
 .. |--| unicode:: U+2013   .. en dash
