@@ -1,3 +1,4 @@
+# categories for the items/objects (in items.txt)
 Cleaning stuff
 Cleaning stuff
 Cleaning stuff

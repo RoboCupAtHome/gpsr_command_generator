@@ -1,3 +1,4 @@
+# list of locations
 bench
 hallway table
 bar

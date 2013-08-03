@@ -1,5 +1,5 @@
 # Category 3: erroneous information
-# do not use tabs in this file
+# USAGE: do not use tabs in this file
 # the character '#' at the beginning of a line is used for comments
 # 'situation: ' is used to extract the setup 
 # 'question: ' is what the robot gets to hear

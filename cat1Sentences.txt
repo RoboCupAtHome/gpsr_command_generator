@@ -1,5 +1,5 @@
-# Category 1: action sequence
-# do not use tabs in this file
+# Category 1: action sequences
+# USAGE: do not use tabs in this file
 # the character '#' at the beginning of a line is used for comments
 
 Move to the LOCATION, move to the LOCATION, and move to the LOCATION.

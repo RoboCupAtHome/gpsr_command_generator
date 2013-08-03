@@ -1,3 +1,4 @@
+# categories for the list of locations (in locations.txt)
 seating
 table
 utensil
